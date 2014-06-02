@@ -1,0 +1,46 @@
+
+body {
+padding-bottom: 30px;
+}
+
+
+.exebit {
+border: 1px solid #999;
+}
+
+
+#curExhibition p{
+display:inline;
+}
+
+#curExhibition #right{
+padding-left:5px;
+filter: Shadow(Color=#666666, Direction=135, Strength=2);
+}
+
+
+.book{
+filter: progid:DXImageTransform.Microsoft.shadow(direction=120, color=#999999, strength=3);
+
+}
+
+.book p{
+padding-bottom:1px;
+}
+
+
+#paginator li{
+display:inline;
+}
+
+#paginator li span{
+display:block;
+}
+
+#paginator li a{
+display:block;
+}
+
+
+
+

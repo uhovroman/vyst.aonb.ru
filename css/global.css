@@ -1,0 +1,296 @@
+
+h1, h2, h3, h4, h5, h6, p, div, ul, ol, li, code, pre, form, fieldset, blockquote, html, body {
+margin: 0;
+padding: 0;
+font-size: 100%;
+font-weight: normal;
+  
+}
+
+table {
+border-collapse: collapse; 
+border-spacing: 0;
+}
+
+td, th, caption {
+font-weight: normal;
+text-align: left;
+}
+
+img, fieldset  { 
+border: 0; 
+}
+
+ol  {
+margin-left: 0;
+list-style: decimal;
+}
+
+ul {
+margin-left: 0;
+list-style:none;
+	
+}
+
+a:focus{
+outline: none;
+}
+
+body {
+font: 62.5% "Trebuchet MS", Arial, sans-serif;
+background:#369;
+	
+}
+
+
+
+#container {
+width: 900px;
+margin: auto;/*-300px 30px 0px;*/
+margin-bottom:30px;
+border: 10px solid rgb(153, 204, 255);
+padding:20px 0;
+font-size: 62.5%;
+background:#fff;
+overflow:hidden;
+position:relative;
+z-index:1;
+border-radius:10px 10px 10px 10px; 
+
+}
+
+
+
+.exebit {
+width: 602px;
+padding:1px;
+margin: auto;
+margin-bottom: 50px;
+font-size: .9em;
+background: url(../img/font_11.jpg);
+border-radius:5px 5px 5px 5px;  
+box-shadow: 0px 0px 10px rgba(0,0,0,1); 
+
+}
+
+
+.exebit-content{
+position:relative;
+width: 550px;
+border: 1px solid #999;
+padding: 20px;
+padding-bottom:10px;
+margin: 5px;
+min-height:200px;
+background-color: #FFF;  
+overflow:hidden;
+
+}
+
+.exebit img {
+width:200px;
+margin-top:-10px;
+margin-right:10px;
+margin-bottom:10px;
+margin-left:-10px;
+float:left;
+border:1px solid #999;
+border-radius:4px 4px 4px 4px;
+
+}
+
+
+.posterExebit {
+margin:0;
+border-width:0;
+
+}
+
+.exebit .poster {
+position:absolute;
+top:10px;
+left:10px;
+display:none;
+width:192px;
+font-size:2.2em;
+font-weight:bold;
+color:#000;
+text-align:center;
+padding:11px;
+padding-left:5px;
+padding-right:5px;
+background: url(img/font_21.png);
+
+
+}
+
+
+.exebit h1 {
+font-size: 2.6em;
+text-transform:uppercase;
+font-weight: bold;
+padding:10px;
+padding-top:15px;
+padding-bottom:15px;
+margin-top:10px;
+text-align:center;
+word-spacing:5px;
+letter-spacing:1px;
+
+}
+
+.exebit h1  a{
+color:#444;
+text-decoration:none;
+
+
+}
+
+.exebit h1  a:hover{
+color:#000;
+border-bottom:1px dotted #000;
+
+}
+
+
+
+.exebit h2 {
+font-size: 2.2em;
+font-weight: bold;
+color:#444;
+padding:5px;
+padding-top:10px;
+padding-bottom:15px;
+margin-top:-10px;
+margin-bottom:0px;
+margin-left:200px;
+margin-right:-10px;
+text-align:center;
+background: #dbcebd;
+}
+
+.exebit h2 span{
+font-size: 0.9em;
+font-weight: normal;
+font-style:italic;
+padding:0px;
+margin:0;
+margin-bottom:-10px;
+float:right;
+
+}
+
+
+.exebit .citation {
+line-height:1.5;
+font-size: 2.5em;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-style:italic;
+padding:1px;
+margin-top:20px;
+margin-bottom:20px;
+text-align:right;
+width:270px;
+float:right;
+
+}
+
+
+
+
+.exebit p {
+border:0px dashed #999;
+font-size: 2.2em;
+font-family:"Times New Roman", Times, serif;
+padding:0px;
+margin-right:-10px;
+text-indent: 30px;
+text-align:justify;
+clear:right;
+}
+
+
+.exebit h3 {
+font-size: 2em;
+font-family: Arial,"Helvetica CY",sans-serif;
+color:#FFF;
+padding:5px;
+padding-left: 10px;
+margin-top:14px;
+margin-bottom:0px;
+margin-left:-10px;
+margin-right:-10px;
+text-align:left;
+background:#8b473e;
+clear:both;
+}
+
+
+.exebit .footer{
+margin-bottom:-5px;
+margin-top:5px;
+padding: 5px;
+clear:both;
+overflow:hidden;
+font-size: 2em;
+font-family: Arial,"Helvetica CY",sans-serif;
+font-weight:bold;
+text-align:center;
+}
+
+
+.exebit .footer a{
+text-decoration:none;
+border-bottom:1px dotted #333;
+color:#666;
+}
+
+
+.exebit .footer a:hover{
+border-bottom:1px dotted rgb(255, 128, 64);
+color:rgb(157, 51, 0);
+
+}
+
+
+
+
+#paginator{
+margin-top:20px;
+margin-bottom:-17px;
+text-align:center;
+}
+
+#paginator li{
+display:inline-block;
+font-size:2em;
+font-family: Arial, sans-serif;
+text-align:center;
+margin:0;
+margin-left:1px;
+background:#fff;
+}
+
+#paginator li:first-child{
+margin-left:0;
+}
+
+#paginator li span{
+font-weight:bold;
+color:rgb(153, 204, 255);
+border:1px solid rgb(153, 204, 255);
+padding:1px 10px;
+}
+
+#paginator li a{
+font-weight:bold;
+text-decoration:none;
+color:rgb(83, 144, 185);
+border:1px solid rgb(83, 144, 185);
+padding:1px 10px;
+}
+
+#paginator li a:hover{
+color:rgb(0, 0, 0);
+border:1px solid rgb(0, 0, 0);
+}
